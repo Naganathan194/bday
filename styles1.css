@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #ffafbd, #ffc3a0);
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+    color: #fff;
+}
+
+.title {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    animation: fadeIn 2s;
+}
+
+.subtitle {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    animation: fadeIn 3s;
+}
+
+button {
+    padding: 15px 40px;
+    font-size: 200%;
+    color: #ffafbd;
+    background: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+button:hover {
+    background: #ffafbd;
+    color: #fff;
+}
+
+.quote {
+    margin-top: 1em;
+    font-size: 1.2em;
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
